@@ -13,6 +13,8 @@ class String
         array.push("1")
       elsif (counter === 0 && letter === "s")
         array.push(letter)
+      elsif(letter === "s" && array[counter-1]=== " ")
+        array.push(letter)
       elsif (letter === "s")
           array.push("z")
       else
